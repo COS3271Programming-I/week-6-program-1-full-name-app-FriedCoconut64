@@ -1,0 +1,22 @@
+package myMain;
+import java.util.Scanner;
+	public class MainClass {
+		static Scanner userinput = new Scanner(System.in);
+		public static void main(String[] args){
+			String f;
+			String m;
+			String l;
+			System.out.println("Please enter your first name:");
+			f = userinput.next();
+			System.out.println("Please enter your middle name:");
+			m = userinput.next();
+			System.out.println("Please enter your last name:");
+			l = userinput.next();
+			
+			String full = (f + " " + m + " " + l);
+			System.out.print(full);
+					
+
+		} 
+
+	} 
